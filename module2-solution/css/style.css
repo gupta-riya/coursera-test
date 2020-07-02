@@ -1,0 +1,168 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+
+}
+
+body{
+	background-color:thistle	;
+}
+
+header{
+
+	text-align: center;
+	font-size: 80px;
+	font-style: italic;
+	font-weight:bold;
+	padding-bottom: 50px;
+}
+
+section{
+	
+	position: relative;
+	color:aliceblue;
+	border: 5px solid black;
+	padding: 0px 0px 10px 10px;
+ 	margin:10px 10px 10px 10px;
+ 	background-color: lightpink;
+
+}
+
+article
+{
+	
+	color:white;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	width: 120px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+p{
+	padding-top: 10px;
+}
+
+
+	#article1{
+		
+		float:right;
+		clear:left;
+		background-color: tomato;
+	}
+
+	#p1{
+
+		position:relative;
+		float:left;
+		clear:right;
+	}
+
+	#article2{
+		background-color: cadetblue;
+		float:right;
+		clear:left;
+	}
+	#p2{
+
+		position:relative;
+		float:left;
+		clear:right;
+	}
+	#article3{
+		background-color:mediumvioletred; 
+		float:right;
+		clear:left;
+	}
+	#p3{
+
+		position:relative;
+		float:left;
+		clear:right;
+	}
+
+
+
+
+@media (min-width: 992px)
+{
+
+	
+	
+	#section1{
+
+				margin-left: 30px;
+				width: 30%;
+				float: left;
+	}
+	
+	
+	#section2{
+
+			   width: 30%;
+			   float: left;
+
+	}
+	
+	#section3{
+
+			   width: 30%;
+			   float: left;
+	}
+	
+}
+@media (max-width: 991px) and (min-width: 768px)
+{
+	#section1{
+
+				margin-left: 30px;
+				width: 40%;
+				float: left;
+	}
+	
+	
+	#section2{
+
+			   width: 40%;
+			   float: left;
+
+	}
+	
+	#section3{
+
+			   margin-left: 30px;
+			   width: 82%;
+			   float: left;
+	}
+	
+}
+@media (max-width: 767px)
+{
+
+	#section1{
+
+				margin-left: 30px;
+				width: 80%;
+				float: left;
+	}
+	
+	
+	#section2{
+
+			  margin-left: 30px;
+				width: 80%;
+				float: left;
+	}
+	
+	#section3{
+
+			 margin-left: 30px;
+				width: 80%;
+				float: left;
+	}
+	
+
+}
